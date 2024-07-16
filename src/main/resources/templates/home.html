@@ -38,10 +38,10 @@
 			  </thead>
 			  <tbody>
 			    <tr th:each="task : ${taskList}">
-		            <td th:text="${task.title}"></td>
-		            <td th:text="${task.deadline}"></td>
-		            <td th:text="${task.isCompleted} ? '完了':'未完了'"></td>
-		         </tr>
+					<td th:text="${task.title}"></td>
+					<td th:text="${task.deadline}"></td>
+					<td th:text="${task.isCompleted} ? '完了':'未完了'"></td>
+				</tr>
 			  </tbody>
 			</table>			
 		</div>
